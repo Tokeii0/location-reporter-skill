@@ -1,4 +1,4 @@
-# 📍 Location Reporter - 实时位置追踪系统
+# 📍 Location Reporter
 
 一套可以让你的openclaw agent实时获取你个人位置的系统，包含安卓APP、云端服务和查询脚本。
 
