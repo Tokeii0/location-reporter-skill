@@ -1,0 +1,13 @@
+[Unit]
+Description=Location API Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/location-api/server.py
+Restart=always
+RestartSec=5
+WorkingDirectory=/opt/location-api
+
+[Install]
+WantedBy=multi-user.target
